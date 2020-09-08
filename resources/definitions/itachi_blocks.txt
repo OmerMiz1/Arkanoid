@@ -1,0 +1,6 @@
+# itachi blocks definitions
+bdef symbol:r width:100 height:50 hit_points:2 fill:image(block_images/sharingan.jpg)
+bdef symbol:f width:100 height:50 hit_points:100 fill:image(block_images/sharingan.jpg)
+
+# spacers
+sdef symbol:- width:25

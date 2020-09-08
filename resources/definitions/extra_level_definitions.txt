@@ -1,0 +1,74 @@
+
+# Level 1
+# kill them ramens
+
+START_LEVEL
+level_name:Itadakimas
+ball_velocities:10,90
+background:image(background_images/itadakimas.jpg)
+paddle_speed:5
+paddle_width:160
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:40
+blocks_start_y:520
+row_height:50
+num_blocks:15
+START_BLOCKS
+nnn
+nnn
+nnn
+nnn
+nnn
+
+
+END_BLOCKS
+END_LEVEL
+
+
+# Level 2
+# has to destroy 5 breakable blocks
+
+START_LEVEL
+level_name: What Is Real?
+ball_velocities:10,60 10,120 15,60 15,120 20,75 20,105 10,60 10,120 15,60 15,120 20,75 20,105
+background:image(background_images/itachi_genjutsu.jpg)
+paddle_speed:20
+paddle_width:550
+block_definitions:definitions/itachi_blocks.txt
+blocks_start_x:25
+blocks_start_y:520
+row_height:50
+num_blocks:5
+START_BLOCKS
+-
+-
+----r--r--f--f
+-----f-r-f-f--
+----r--f--r--f-
+END_BLOCKS
+END_LEVEL
+
+
+
+
+
+# Level 3
+# destroy 1 ya lazy
+
+START_LEVEL
+level_name:Lazy?
+ball_velocities:10,60
+background:image(background_images/shikamaru.jpg)
+paddle_speed:20
+paddle_width:160
+block_definitions:definitions/standard_block_definitions.txt
+blocks_start_x:5
+blocks_start_y:530
+row_height:25
+num_blocks:1
+START_BLOCKS
+-gggggggggggggg
+
+
+END_BLOCKS
+END_LEVEL
